@@ -10,7 +10,8 @@ from cv2 import (CAP_PROP_FOURCC, CAP_PROP_FPS, CAP_PROP_FRAME_COUNT,
                  CAP_PROP_POS_FRAMES)
 from tqdm import tqdm
 
-from mmcv.utils import (check_file_exist, mkdir_or_exist, track_progress)
+from mmengine.utils import (check_file_exist, mkdir_or_exist, track_progress) # Changed from mmcv to mmengine (Why?)
+import shutil # Why was this not included in the original??
 
 
 class Cache:
