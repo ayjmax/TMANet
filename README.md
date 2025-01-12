@@ -107,3 +107,13 @@ If this codebase is helpful for you, please consider give me a star ⭐ 😊.
   ```
 ## Acknowledgement
 Thanks [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) contribution to the community!
+
+
+## Current Progress - Alec
+- Installed the camvid images/dataset <-- use this for initial testing
+- I've gotten the mmsegmentation to download (correct version) by simply running the command given in the README `pip install -e .`
+- Todd installed Python version 3.9.2 and the current `.env` is based on this version.
+- Unfortunately, there is a missing dependency/error when trying to run either the `eval.sh` or `train.sh` script. This is solved by installing
+  a specific package and reinstalling python on the server
+  - Asked Todd 1/11/2025
+
